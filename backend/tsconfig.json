@@ -1,0 +1,21 @@
+// gen-thumb-backend/tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom","dom.iterable","esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "incremental": true,
+    "allowJs": true
+  },
+  "include": ["next-env.d.ts","**/*.ts","**/*.tsx"],
+  "exclude": ["node_modules"]
+}
