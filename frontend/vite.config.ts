@@ -13,4 +13,7 @@ export default defineConfig({
       },
     },
   },
+  define: {
+    "process.env": {}, // ← add this line to fix "process is not defined"
+  },
 });

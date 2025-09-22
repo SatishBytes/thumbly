@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/clerk-react";
 import ThumbnailUploader from "./components/ThumbnailUploader";
-import About from "./pages/about"; // 👈 Your About page
+import About from "./pages/about";
 
 function App() {
   return (
